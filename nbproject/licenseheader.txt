@@ -1,0 +1,8 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}MEAN MVC Learning Project
+${licensePrefix}Released under MIT License
+<#if licenseLast??>
+${licenseLast}
+</#if>
