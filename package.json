@@ -12,6 +12,7 @@
         "express": "^4.15.4",
         "gulp": "latest",
         "mongoose": "^4.11.12",
-        "passport": "^0.4.0"
+        "passport": "^0.4.0",
+        "passport-local": "^1.0.0"
     }
 }
