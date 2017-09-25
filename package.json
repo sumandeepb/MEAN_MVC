@@ -8,8 +8,10 @@
     },
     "dependencies": {
         "body-parser": "^1.18.2",
+        "connect-flash": "^0.1.1",
         "ejs": "^2.5.7",
         "express": "^4.15.4",
+        "express-session": "^1.15.5",
         "gulp": "latest",
         "mongoose": "^4.11.12",
         "passport": "^0.4.0",
