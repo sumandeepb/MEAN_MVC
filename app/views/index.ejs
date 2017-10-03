@@ -5,7 +5,15 @@
     </head>
 
     <body>
+        <section ng-view></section>
         <script type="text/javascript" src="/libs/angular/angular.js"></script>
+        <script type="text/javascript" src="/js/angular-route/angular-route.min.js"></script>
+        <script type="text/javascript" src="/js/angular-resource/angular-resource.min.js"></script>
+        <script type="text/javascript" src="/example/example.client.module.js"></script>
+        <script type="text/javascript" src="/example/config/example.client.routes.js"></script>
+        <script type="text/javascript" src="/users/users.client.module.js"></script>
+        <script type="text/javascript" src="/users/services/authentication.client.service.js"></script>
+        <script type="text/javascript" src="application.js"></script>
         <h1><%= title %></h1>
         <img src="img/logo.png" alt="Capillary logo">
         <% if ( user ) { %>
@@ -15,5 +23,8 @@
         <a href="/register">Register</a>
         <a href="/login">Login</a>
         <% } %>
+        <script type="text/javascript">
+            window.user = < % - user || 'null' % > ;
+        </script>
     </body>
 </html>
