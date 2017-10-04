@@ -3,4 +3,4 @@
  * Released under MIT License
  */
 
-angular.module('example', []);
+angular.module('example', ['ngRoute', 'users']);
